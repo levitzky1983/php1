@@ -2,7 +2,6 @@
     include_once 'engine/config.php';
     include_once 'engine/preview.php';
     include_once 'engine/images.php';
-    include 'server.php';
    //$res = mysqli_query($connect,$sql);
    //print_r($res);
 ?>
