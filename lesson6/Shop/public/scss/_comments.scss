@@ -1,0 +1,60 @@
+.comments {
+    flex: 1;
+    margin-top: 150px;
+    width: 100%;
+    .form_user_comment {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        label,p {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        input[type=text],input[type=email] {
+            width: 50%;
+            height: 1rem;
+            border: 1px solid blue;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            padding: 2rem;
+            outline: none;
+            &:focus {
+               border: 1px solid green;
+            }
+        }
+        textarea {
+            width: 50%;
+            height: 20rem;
+            border: 1px solid blue;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            padding: 1rem;
+            resize: none;
+            outline: none;
+        }
+        .submit_reset {
+            width: 100%;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        input[type=submit],input[type=reset] {
+            width: 25%;
+            height: 3rem;
+            border: 1px solid blue;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            outline: none;
+            &:hover {
+                border: 1px solid red;
+                color: blue;
+            }
+            &:active {
+                border: 1px solid orange;
+                color: green;
+            }
+        }
+    }
+
+}

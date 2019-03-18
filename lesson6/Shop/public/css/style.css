@@ -1,0 +1,276 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\000033}}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\000039}}
+body {
+  background-color: gainsboro;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000314}}
+.fix {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000320}}
+header {
+  margin: 0 auto;
+  width: 90%;
+  height: 100px;
+  border: 1px solid  gray;
+  background: #c1bfac;
+  background: linear-gradient(92deg, #c1bfac 0%, white 95%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000331}}
+  header .menu {
+    width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000333}}
+    header .menu .menu_li {
+      list-style: none;
+      cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000340}}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  background: fixed whitesmoke url(../img/background/planets.jpg) no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 5px 3px 12px 0px rgba(126, 50, 50, 0.48);
+          box-shadow: 5px 3px 12px 0px rgba(126, 50, 50, 0.48); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000352}}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000359}}
+.link {
+  text-decoration: none;
+  color: brown; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000362}}
+  .link:hover {
+    color: #541515; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000366}}
+.button {
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000375}}
+  .button:hover {
+    color: red;
+    background-color: #ffc267; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000379}}
+  .button:active {
+    color: blue;
+    background-color: #ff9901; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/style\.scss}line{font-family:\0000385}}
+.main {
+  margin-top: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_catalog\.scss}line{font-family:\000031}}
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin-top: 200px;
+  -ms-flex-item-align: center;
+      align-self: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_catalog\.scss}line{font-family:\000037}}
+  .products .product {
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    border-bottom: 2px solid brown;
+    margin-bottom: 30px;
+    padding-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_catalog\.scss}line{font-family:\0000313}}
+    .products .product .product_name {
+      padding: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 300px;
+      text-align: center;
+      border: 2px solid brown;
+      border-radius: 10px;
+      background-color: blanchedalmond; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_catalog\.scss}line{font-family:\0000323}}
+    .products .product p.descr {
+      padding: 10px;
+      border-radius: 10px;
+      margin-left: 50px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: black;
+      background-color: blanchedalmond; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_catalog\.scss}line{font-family:\0000332}}
+    .products .product p.price {
+      color: brown;
+      margin-left: none;
+      font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\000031}}
+.full_product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 200px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\000038}}
+  .full_product h1 {
+    font-size: 5rem;
+    color: brown;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\0000313}}
+  .full_product img {
+    border: solid 2px brown;
+    border-radius: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\0000317}}
+  .full_product .descr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-radius: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\0000324}}
+  .full_product p.descr_header {
+    font-size: 2rem;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\0000328}}
+  .full_product p {
+    font-size: 1.5rem;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_product\.scss}line{font-family:\0000332}}
+  .full_product p.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\000031}}
+.comments {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 150px;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\000035}}
+  .comments .form_user_comment {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000311}}
+    .comments .form_user_comment label, .comments .form_user_comment p {
+      font-size: 1.5rem;
+      font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000315}}
+    .comments .form_user_comment input[type=text], .comments .form_user_comment input[type=email] {
+      width: 50%;
+      height: 1rem;
+      border: 1px solid blue;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      padding: 2rem;
+      outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000323}}
+      .comments .form_user_comment input[type=text]:focus, .comments .form_user_comment input[type=email]:focus {
+        border: 1px solid green; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000327}}
+    .comments .form_user_comment textarea {
+      width: 50%;
+      height: 20rem;
+      border: 1px solid blue;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      padding: 1rem;
+      resize: none;
+      outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000337}}
+    .comments .form_user_comment .submit_reset {
+      width: 100%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000342}}
+    .comments .form_user_comment input[type=submit], .comments .form_user_comment input[type=reset] {
+      width: 25%;
+      height: 3rem;
+      border: 1px solid blue;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      outline: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000349}}
+      .comments .form_user_comment input[type=submit]:hover, .comments .form_user_comment input[type=reset]:hover {
+        border: 1px solid red;
+        color: blue; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Open-server3\.5\.0\/OSPanel\/domains\/php1\/lesson6\/Shop\/public\/scss\/_comments\.scss}line{font-family:\0000353}}
+      .comments .form_user_comment input[type=submit]:active, .comments .form_user_comment input[type=reset]:active {
+        border: 1px solid orange;
+        color: green; }
+
+/*# sourceMappingURL=style.css.map */

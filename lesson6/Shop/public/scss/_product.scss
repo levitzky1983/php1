@@ -1,0 +1,38 @@
+.full_product {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    h1 {
+        font-size: 5rem;
+        color: brown;
+        margin-bottom: 30px;
+    }
+    img {
+        border: solid 2px brown;
+        border-radius: 10px;
+    }
+    .descr {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding : 30px;
+        background-color: blanchedalmond;
+        border-radius: 30px;
+    }
+    p.descr_header {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    p.price{
+        font-size: 2rem;
+        font-weight: bold;
+        color: red;
+    }
+   
+}
