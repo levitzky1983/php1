@@ -1,0 +1,39 @@
+.products{
+    display : flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 200px;
+    align-self: center;
+    .product {
+        width: 100%;
+        flex-wrap: nowrap;
+        border-bottom: 2px solid brown;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        .product_name {
+            padding: 10px;
+            display : flex;
+            flex-direction: column;
+            width: 300px;
+            text-align: center;
+            border: 2px solid brown;
+            border-radius: 10px;
+            background-color: blanchedalmond;
+        }
+        p.descr {
+            width: 500px;
+            padding:10px;
+            border-radius: 10px;
+            margin-left: 50px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color:black;
+            background-color: blanchedalmond;
+        }
+        p.price{
+            color: brown;
+            margin-left: none;
+            font-weight: bold;
+        }
+    }
+}
