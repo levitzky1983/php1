@@ -1,0 +1,42 @@
+.add {
+
+    width: 150px;
+    height: 2rem;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    font-weight: bold;
+    &:hover {
+        background-color: darken( yellowgreen, 20% );
+    }
+    &:active{
+        background-color: darken( yellowgreen, 20% );
+        box-shadow: none;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+}
+.link_admin_div {
+   // width: %;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 50px;
+        //justify-content: center;
+        li {
+            width: 150px;
+            text-align: center;
+            height: 2rem;
+            margin-left: 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+            line-height: 2rem;
+            background-color: blanchedalmond;
+        }
+    }
+}
